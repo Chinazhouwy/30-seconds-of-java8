@@ -757,4 +757,9 @@ public abstract class Snippets {
         return Arrays.stream(enumClass.getEnumConstants())
                 .collect(Collectors.toMap(Enum::name, Function.identity()));
     }
+     
+    {
+	"TEST"
+    }
+
 }
